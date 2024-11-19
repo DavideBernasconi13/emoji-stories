@@ -7,8 +7,15 @@
 
 #app {
     width: 375px;
-    height: 100vh;
+    max-height: 100vh;
+    /* overflow: hidden; */
     margin: 0px auto;
+}
+
+.building-screen,
+.loading-screen,
+.result-screen {
+    height: 100vh;
 }
 
 header {
