@@ -1,15 +1,25 @@
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
     font-family: 'Instrument sans', sans-serif;
     background-color: #f1d0e5;
 }
 
+:root {
+    --primary-color: #6f1b36;
+}
+
 #app {
-    width: 375px;
+    max-width: 375px;
     max-height: 100vh;
     /* overflow: hidden; */
     margin: 0px auto;
+    padding: 16px;
+    border: 1px solid red;
+    position: relative;
 }
 
 .building-screen,
@@ -18,8 +28,28 @@
     height: 100vh;
 }
 
-header {
+.header {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 48px;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #faeff6;
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    img {
+        height: 65%;
+    }
+}
+
+.building {
+    padding-top: 2rem;
 }
 
 button {
@@ -29,6 +59,6 @@ button {
     font-size: 2rem;
     font-weight: 500;
     text-transform: uppercase;
-    color: #6f1b36;
+    color: var(--primary-color);
     border: none;
 }
