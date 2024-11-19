@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emojj stories</title>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <img src="asset/icon.png" alt="icon">
+            <h1>Emojii Stories</h1>
+        </header>
+
+        <main class="building">
+            <!-- schermata di costruzione -->
+            <div class="building-screen">
+                <!-- nome emojii-->
+                <div class="field">
+                    <label for="name">Nome del protagonista</label>
+                    <input type="text">
+                </div>
+                <!-- lista emoji -->
+                <div class="field">
+                    <label for="emoji-list">Scegli 3 emoji </label>
+                    <ul class="emoji-list">
+                        <li class="emoji">👹</li>
+                        <li class="emoji">👽</li>
+                        <li class="emoji">🧚</li>
+                        <li class="emoji">🧟</li>
+                        <li class="emoji">🌴</li>
+                        <li class="emoji">🌍</li>
+                        <li class="emoji">🐥</li>
+                        <li class="emoji">🧢</li>
+                    </ul>
+                </div>
+
+                <button>Genera</button>
+
+            </div>
+            <div class="loading-screeen">
+                <img src="asset/loader.gif" alt="loader">
+                <p>Attendi, prego</p>
+            </div>
+            <!-- Result screen: story  -->
+            <div class="result-screen">
+                <div class="story">
+                    <h2 class="story-title">Titolo della storia</h2>
+                    <p class="story-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quibusdam
+                        adipisci est, quas praesentium harum ea rem dolor numquam minima sit architecto! Officia in
+                        veritatis, facere nisi alias, soluta dolor harum provident dicta iure adipisci quo est dolorem
+                        eius voluptatibus sapiente porro, fuga magni! Ea, sequi! Corrupti ex, dolore cupiditate in, odit
+                        ipsum beatae, perferendis eum exercitationem reprehenderit quos reiciendis! Saepe illum
+                        consequuntur dolor delectus sint commodi natus quo, voluptatibus totam ab dolores qui
+                        perferendis vero esse hic fugiat molestias excepturi possimus a? Unde obcaecati asperiores quam
+                        in voluptates aperiam corrupti porro non, accusantium minima alias, reprehenderit dolorem magni
+                        aliquam!</p>
+                </div>
+                <div class="result-buttons">
+                    <button class="secondary-button">
+                        <img src="asset/home.png" alt="home">
+                    </button>
+                    <button>AVANTI</button>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
