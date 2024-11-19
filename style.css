@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
 body {
@@ -38,18 +40,37 @@ body {
     padding: 0.5rem 1rem;
     background-color: #faeff6;
     color: var(--primary-color);
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
 
     img {
-        height: 65%;
+        height: 100%;
     }
 }
 
 .building {
     padding-top: 2rem;
+}
+
+.field {
+    label {
+        font-size: 2rem;
+        display: block;
+        border: 1px solid green;
+    }
+
+    input {
+        border: none;
+        border-bottom: 2px solid var(--primary-color);
+        background-color: transparent;
+        width: 100%;
+        padding: 1rem 0.5rem;
+    }
+
+    padding-bottom: 1rem;
+    border: 1px solid red;
 }
 
 button {
@@ -61,4 +82,5 @@ button {
     text-transform: uppercase;
     color: var(--primary-color);
     border: none;
+    cursor: pointer;
 }
